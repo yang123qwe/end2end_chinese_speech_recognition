@@ -5,6 +5,8 @@
 
 下载sp_model.pt模型 放到models文件夹里   
 
-参见main.py 可以开箱运行   
+参见main.py 可以开箱运行     
+
+训练数据：ST-CMDS-20170001_1-OS     THCHS_30    
 
 有问题联系 QQ：2233432320   
