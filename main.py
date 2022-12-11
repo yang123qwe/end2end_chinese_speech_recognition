@@ -24,7 +24,9 @@ device_ = torch.device('cpu')
 model_lo.load_state_dict(torch.load('models/sp_model.pt' , map_location=device_))
 model_lo.eval()
 print ('00')
-num_wor = np.load('models/dic.dic.npy').item()
+# num_wor = np.load('models/dic.dic.npy').item()
+num_wor = np.load('models/dic.dic.npy',allow_pickle=True).item()
+
 if __name__=='__main__':
     path_ = 'temp.wav'
     result_ = main(path_)
